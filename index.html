@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumit Kumar Mallick - Advanced Excel Expert</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+        .header { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); color: white; padding: 60px 20px; text-align: center; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.2em; opacity: 0.9; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+        .section { margin-bottom: 50px; }
+        .section h2 { color: #1e3c72; margin-bottom: 20px; font-size: 2em; border-bottom: 3px solid #2a5298; padding-bottom: 10px; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+        .skill-card { background: #f8f9fa; padding: 25px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .skill-card:hover { transform: translateY(-5px); box-shadow: 0 5px 20px rgba(0,0,0,0.15); }
+        .skill-card h3 { color: #2a5298; margin-bottom: 15px; font-size: 1.3em; }
+        .skill-card ul { list-style: none; }
+        .skill-card li { padding: 8px 0; padding-left: 25px; position: relative; }
+        .skill-card li:before { content: "✓"; position: absolute; left: 0; color: #28a745; font-weight: bold; }
+        .services { background: #f8f9fa; padding: 40px 20px; margin: 40px 0; border-radius: 10px; }
+        .services ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; margin-top: 20px; }
+        .services li { background: white; padding: 20px; border-left: 4px solid #2a5298; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .cta { background: linear-gradient(135deg, #28a745 0%, #20c997 100%); color: white; padding: 50px 20px; text-align: center; border-radius: 10px; margin: 40px 0; }
+        .cta h2 { font-size: 2em; margin-bottom: 20px; }
+        .cta p { font-size: 1.2em; margin-bottom: 30px; }
+        .contact-info { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-top: 20px; }
+        .contact-btn { background: white; color: #28a745; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; transition: all 0.3s; display: inline-block; }
+        .contact-btn:hover { background: #f8f9fa; transform: scale(1.05); }
+        .footer { background: #1e3c72; color: white; text-align: center; padding: 30px 20px; }
+        @media (max-width: 768px) {
+            .header h1 { font-size: 1.8em; }
+            .section h2 { font-size: 1.5em; }
+            .skills-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Sumit Kumar Mallick</h1>
+        <p>Advanced Excel Expert | Data Analysis Specialist | VBA Automation</p>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Me</h2>
+            <p style="font-size: 1.1em; line-height: 1.8;">
+                I'm an Advanced Excel Expert specializing in transforming complex data into actionable business insights. 
+                With deep expertise in Excel automation, data analysis, and custom solutions, I help businesses streamline 
+                their workflows and make data-driven decisions efficiently.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Core Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Advanced Formulas</h3>
+                    <ul>
+                        <li>XLOOKUP & VLOOKUP</li>
+                        <li>INDEX-MATCH combinations</li>
+                        <li>Array Formulas</li>
+                        <li>Dynamic Arrays</li>
+                        <li>Complex nested functions</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Automation & VBA</h3>
+                    <ul>
+                        <li>Custom Macros Development</li>
+                        <li>VBA Programming</li>
+                        <li>Workflow Automation</li>
+                        <li>User Forms & Controls</li>
+                        <li>Error Handling</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Power Tools</h3>
+                    <ul>
+                        <li>Power Query (ETL)</li>
+                        <li>Power Pivot</li>
+                        <li>DAX Formulas</li>
+                        <li>Data Modeling</li>
+                        <li>Advanced Pivot Tables</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Data Visualization</h3>
+                    <ul>
+                        <li>Interactive Dashboards</li>
+                        <li>Advanced Charts</li>
+                        <li>Conditional Formatting</li>
+                        <li>KPI Tracking</li>
+                        <li>Business Intelligence</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Data Analysis</h3>
+                    <ul>
+                        <li>Statistical Analysis</li>
+                        <li>Trend Analysis</li>
+                        <li>Data Cleaning</li>
+                        <li>Data Transformation</li>
+                        <li>Reporting Solutions</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>Financial Modeling</h3>
+                    <ul>
+                        <li>Financial Forecasting</li>
+                        <li>Budget Planning</li>
+                        <li>Scenario Analysis</li>
+                        <li>P&L Statements</li>
+                        <li>Cash Flow Models</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="services">
+            <h2 style="color: #1e3c72; margin-bottom: 20px;">Services I Offer</h2>
+            <ul>
+                <li><strong>Excel Automation:</strong> Automate repetitive tasks and save hours of manual work</li>
+                <li><strong>Custom Dashboard Creation:</strong> Interactive dashboards for real-time business insights</li>
+                <li><strong>Data Analysis & Reporting:</strong> Transform raw data into meaningful reports</li>
+                <li><strong>VBA Macro Development:</strong> Custom solutions tailored to your business needs</li>
+                <li><strong>Data Cleaning & Transformation:</strong> Clean, organize, and structure your data</li>
+                <li><strong>Financial Modeling:</strong> Build robust financial models for forecasting and planning</li>
+                <li><strong>Excel Training:</strong> One-on-one training for teams and individuals</li>
+                <li><strong>Template Development:</strong> Reusable templates for recurring business processes</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Who Can Benefit?</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
+                <div style="background: #e8f5e9; padding: 20px; border-radius: 8px;">
+                    <h3 style="color: #2e7d32; margin-bottom: 10px;">Small Businesses</h3>
+                    <p>Automate workflows and improve efficiency without expensive software</p>
+                </div>
+                <div style="background: #e3f2fd; padding: 20px; border-radius: 8px;">
+                    <h3 style="color: #1565c0; margin-bottom: 10px;">Startups</h3>
+                    <p>Data-driven decision making tools on a budget</p>
+                </div>
+                <div style="background: #fff3e0; padding: 20px; border-radius: 8px;">
+                    <h3 style="color: #e65100; margin-bottom: 10px;">Enterprises</h3>
+                    <p>Custom reporting solutions and complex data analysis</p>
+                </div>
+                <div style="background: #f3e5f5; padding: 20px; border-radius: 8px;">
+                    <h3 style="color: #6a1b9a; margin-bottom: 10px;">Individuals</h3>
+                    <p>Personal projects and Excel challenges solved</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <h2>Ready to Transform Your Data?</h2>
+            <p>Let's discuss how I can help streamline your Excel workflows and unlock insights from your data</p>
+            <div class="contact-info">
+                <a href="mailto:cosmitgaming@gmail.com" class="contact-btn">📧 Email Me</a>
+                <a href="https://www.linkedin.com/in/sumit-kumar-mallick" target="_blank" class="contact-btn">💼 LinkedIn</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Sumit Kumar Mallick - Advanced Excel Expert</p>
+        <p style="margin-top: 10px; opacity: 0.8;">Transforming Data into Business Intelligence</p>
+    </div>
+</body>
+</html>
